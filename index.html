@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Week 6 Assignment</title>
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="box">
+            <h2>Simple User Authentication and Product List</h2>
+            <div id="user-info">
+              <label for="name">Name:</label>
+              <input type="text" id="name" placeholder="Enter your name">
+              <br>
+              <label for="age">Age:</label>
+              <input type="number" id="age" placeholder="Enter your age">
+              <br>
+              <button onclick="authenticateUser()">Submit</button>
+            </div>
+            <div id="auth-message"></div>
+            <h2>Available Products:</h2>
+            <div id="product-list"></div>
+        </div>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>
